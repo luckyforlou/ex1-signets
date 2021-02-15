@@ -1,9 +1,12 @@
 import './Appli.scss';
+import Entete from './composants/Entete';
+import GrilleSignets from './composants/GrilleSignets';
 
 export default function Appli() {
   return (
     <div className="Appli">
-        Gabarit de base
+       <Entete/>
+       <GrilleSignets/>
     </div>
   );
 }
