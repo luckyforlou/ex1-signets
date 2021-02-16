@@ -1,4 +1,5 @@
 import './Appli.scss';
+import BtnAjoutSignet from './composants/BtnAjoutSignet';
 import Entete from './composants/Entete';
 import GrilleSignets from './composants/GrilleSignets';
 
@@ -7,6 +8,7 @@ export default function Appli() {
     <div className="Appli">
        <Entete/>
        <GrilleSignets/>
+       <BtnAjoutSignet></BtnAjoutSignet>
     </div>
   );
 }

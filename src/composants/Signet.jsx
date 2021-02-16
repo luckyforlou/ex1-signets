@@ -1,5 +1,9 @@
 export default function Signet(props){
     return(
-        <p>je suis un signet</p>
+        <div className="signet">
+            <h2>{props.nom}</h2>
+            <p>{props.dateMod}</p>
+            <img src={'img/' + props.id + '.jpg'} alt="image article"/>
+        </div>
     )
 }
